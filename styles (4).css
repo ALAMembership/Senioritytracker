@@ -1,0 +1,194 @@
+/* =========================
+   Color Palette
+   ========================= */
+:root {
+  --dark-navy: #002B40;
+  --mid-blue: #006EAD;
+  --light-bg: #F5FAFC;
+  --text-dark: #002B40;
+  --text-gray: #5f6c77;
+  --accent-yellow: #FFD43B;
+  --border-gray: #D0D6DB;
+}
+
+/* =========================
+   Global Reset & Base
+   ========================= */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--light-bg);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* =========================
+   Header
+   ========================= */
+header {
+  background: linear-gradient(to right, #002B40, #006EAD);
+  color: blue;
+  text-align: center;
+  padding: 40px 16px 30px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  max-width: 180px;
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+header h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* =========================
+   Card Panels
+   ========================= */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-gray);
+}
+
+.card h2 {
+  color: var(--text-dark);
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.instructions {
+  font-size: 14px;
+  color: var(--text-gray);
+  margin: 8px 0 14px 0;
+  line-height: 1.4;
+}
+
+/* =========================
+   Controls
+   ========================= */
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+input, select {
+  padding: 8px;
+  border: 1px solid var(--border-gray);
+  border-radius: 6px;
+  font-size: 14px;
+  flex: 1;
+  min-width: 120px;
+}
+
+button {
+  background: var(--accent-yellow);
+  color: var(--text-dark);
+  font-weight: 600;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background: var(--mid-blue);
+  color: white;
+}
+
+/* =========================
+   Tables
+   ========================= */
+.table-wrap {
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 340px;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid var(--border-gray);
+  padding: 8px 10px;
+  text-align: left;
+}
+
+thead th {
+  background: var(--mid-blue);
+  color: white;
+  font-weight: 600;
+}
+
+/* =========================
+   Banner & Small Text
+   ========================= */
+.banner {
+  background: #fee;
+  border: 1px solid #c66;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 12px 0;
+  color: #900;
+  display: none;
+}
+
+.small {
+  color: var(--text-gray);
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+/* =========================
+   Responsive Design
+   ========================= */
+@media (max-width: 600px) {
+  header {
+    padding: 25px 12px 20px;
+  }
+
+  .logo {
+    max-width: 140px;
+    width: 60%;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  input, select {
+    width: 100%;
+  }
+}
