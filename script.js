@@ -167,3 +167,120 @@ if (document.readyState === 'loading') {
 } else {
   attachRunBaseSeat();
 }
+// ===== Retirements data (tables + projector) =====
+let RETS = null;
+
+function bust() {
+  // cache-bust using version if present
+  return (RETS && RETS.version) ? `?v=${encodeURIComponent(RETS.version)}` : `?v=${Date.now()}`;
+}
+
+async function loadRetirements() {
+  const r = await fetch('data/retirements.json' + `?v=${Date.now()}`);
+  if (!r.ok) throw new Error('Missing data/retirements.json');
+  RETS = await r.json();
+  return RETS;
+}
+
+function renderRetirementsByBase() {
+  const head = document.getElementById('retByBaseHead');
+  const body = document.getElementById('retByBaseBody');
+  if (!head || !body || !RETS) return;
+
+  // Build header: Year + each base + Total
+  head.innerHTML = '<th>Year</th>';
+  const bases = (RETS.bases || []).slice().sort();
+  for (const b of bases) head.innerHTML += `<th>${b}</th>`;
+  head.innerHTML += `<th>Total</th>`;
+
+  // Body: one row per year
+  body.innerHTML = '';
+  for (const y of (RETS.years || [])) {
+    const bucket = (RETS.byYear || {})[String(y)] || {};
+    const tr = document.createElement('tr');
+    let cells = `<td>${y}</td>`;
+    for (const b of bases) cells += `<td>${bucket[b] ?? 0}</td>`;
+    cells += `<td><strong>${bucket.total ?? 0}</strong></td>`;
+    tr.innerHTML = cells;
+    body.appendChild(tr);
+  }
+}
+
+function renderRetirementTotals() {
+  const body = document.getElementById('retTotalsBody');
+  if (!body || !RETS) return;
+  body.innerHTML = '';
+  for (const row of (RETS.totals || [])) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${row.year}</td><td>${row.retirements}</td>`;
+    body.appendChild(tr);
+  }
+}
+
+function cumulativeThroughYear(targetYear) {
+  // Returns cumulative retirements up to and including targetYear
+  let sum = 0;
+  for (const row of (RETS.cumulative || [])) {
+    if (row.year <= targetYear) sum = row.cumulative_retirements;
+  }
+  return sum;
+}
+
+// Simple projector: start at your seniority N; each year subtract cumulative retirements
+// Assumes all retirees are senior to you (best-case).
+function runProjector() {
+  if (!RETS) return;
+  const sn = parseInt(document.getElementById('projSeniority').value, 10);
+  const startYearInput = document.getElementById('projStartYear');
+  let startYear = parseInt(startYearInput.value, 10);
+  if (!sn || sn < 1) {
+    alert('Enter a valid seniority number.');
+    return;
+  }
+  if (!startYear) {
+    // default to first year in the file
+    startYear = (RETS.years && RETS.years[0]) ? RETS.years[0] : new Date().getFullYear();
+    if (startYearInput) startYearInput.value = startYear;
+  }
+
+  const body = document.getElementById('projBody');
+  if (!body) return;
+  body.innerHTML = '';
+
+  const startCum = cumulativeThroughYear(startYear - 1); // retirements before start year
+  const startRank = Math.max(1, sn - startCum);
+
+  for (const y of (RETS.years || [])) {
+    if (y < startYear) continue;
+    const inYear = ((RETS.byYear || {})[String(y)] || {}).total || 0;
+    const cum = cumulativeThroughYear(y);
+    const projectedRank = Math.max(1, sn - cum);
+    const delta = startRank - projectedRank;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${y}</td>
+      <td>${inYear}</td>
+      <td>${cum}</td>
+      <td><strong>${projectedRank}</strong></td>
+      <td>${delta > 0 ? `+${delta}` : delta}</td>`;
+    body.appendChild(tr);
+  }
+}
+
+async function initRetirementsUI() {
+  try {
+    await loadRetirements();
+    renderRetirementsByBase();
+    renderRetirementTotals();
+    const btn = document.getElementById('runProjector');
+    if (btn) btn.addEventListener('click', runProjector);
+  } catch (e) {
+    console.error(e);
+    const banner = document.getElementById('dataError');
+    if (banner) banner.textContent = 'Failed to load retirements.json';
+  }
+}
+
+// Kick it off (safe to call alongside your existing init)
+initRetirementsUI();
+
