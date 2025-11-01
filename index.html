@@ -1,73 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Seniority Forecast</title>
-  <style>
-    :root { --bg:#fff; --ink:#111; --muted:#666; --line:#ddd; --tab:#f4f4f4; }
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--ink); margin:24px; }
-    h1 { margin: 0 0 8px; }
-    .note { opacity:.75; margin-bottom:16px; }
-    .tabs { display:flex; gap:8px; border-bottom:1px solid var(--line); margin:16px 0; }
-    .tab-btn {
-      appearance:none; border:1px solid var(--line); border-bottom:none; background:var(--tab);
-      padding:8px 12px; cursor:pointer; border-top-left-radius:8px; border-top-right-radius:8px;
-      font-weight:600; color:var(--muted);
-    }
-    .tab-btn.active { background:#fff; color:var(--ink); }
-    .tab-panel { display:none; padding:12px 0; }
-    .tab-panel.active { display:block; }
-    table { border-collapse:collapse; width:100%; max-width:960px; }
-    th, td { border:1px solid var(--line); padding:6px 10px; text-align:left; }
-    thead { background:#fafafa; }
-    #err { color:#b00020; margin:12px 0; display:none; }
-    .controls { display:flex; gap:12px; align-items:center; margin:8px 0 14px; flex-wrap:wrap; }
-    select { padding:6px 8px; }
-    .muted { color:var(--muted); font-size:.9em; }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Retirements</h1>
-  <div class="note">Data source: <code>/data/data.json</code> → <code>pilots[].retire_month</code> (and optional <code>base</code>).</div>
-  <div id="err"></div>
+  <!-- Error banner your JS can toggle -->
+  <div id="dataError" class="banner" role="alert" aria-live="polite"></div>
 
-  <!-- Tabs -->
-  <div class="tabs" role="tablist" aria-label="Retirements views">
-    <button class="tab-btn active" data-tab="totals" role="tab" aria-selected="true" aria-controls="tab-totals">Totals by Year</button>
-    <button class="tab-btn" data-tab="bybase" role="tab" aria-selected="false" aria-controls="tab-bybase" id="bybase-tab">By Base × Year</button>
-  </div>
+  <main class="container">
+    <img src="ala-mec-logo.png" alt="ALPA Alaska MEC" class="logo">
+    <h1>Seniority Forecast</h1>
 
-  <!-- Panel: Totals -->
-  <section id="tab-totals" class="tab-panel active" role="tabpanel" aria-labelledby="tab-btn-totals">
-    <table id="totals-table">
-      <thead><tr><th>Year</th><th>Retirements</th></tr></thead>
-      <tbody></tbody>
-    </table>
-  </section>
+    <!-- ===== Your Seniority (master list mode if retire dates available) ===== -->
+    <section class="card">
+      <h2>Your Projection</h2>
+      <p class="instructions">
+        Enter your seniority number and a target date, then press <b>Run</b> to see projected seniority and retirees ahead by that date.
+      </p>
+      <div class="controls">
+        <label for="yourSeniority">Your seniority #</label>
+        <input id="yourSeniority" type="number" min="1" step="1" style="width:100px" inputmode="numeric">
+        <label for="targetDate">Target date</label>
+        <input id="targetDate" type="date">
+        <button id="runMaster">Run</button>
+        <span id="runMasterStatus" class="small"></span>
+      </div>
+      <div>
+        <div>Projected seniority on target date: <strong id="projOnDate">—</strong></div>
+        <div>Retirees ahead by that date: <strong id="retireesAhead">—</strong></div>
+        <div>Your retirement month: <strong id="yourRetireMonth">—</strong></div>
+        <div>Your seniority at retirement: <strong id="yourRetireRank">—</strong></div>
+      </div>
+    </section>
 
-  <!-- Panel: By Base × Year -->
-  <section id="tab-bybase" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-bybase">
-    <div class="controls">
-      <label>
-        View
-        <select id="matrixMode">
-          <option value="matrix">All bases (matrix)</option>
-          <option value="single">Single base (column)</option>
-        </select>
-      </label>
-      <label id="singleBaseWrap" style="display:none;">
-        Base
-        <select id="singleBase"></select>
-      </label>
-      <span class="muted" id="bybaseHint">Showing all bases side-by-side.</span>
-    </div>
-    <table id="bybase-table">
-      <thead><tr id="bybase-head"><th>Year</th></tr></thead>
-      <tbody id="bybase-body"></tbody>
-    </table>
-  </section>
+    <!-- ===== Base / Seat Projection ===== -->
+    <section class="card" id="baseSeatSection">
+      <h2>Base / Seat Projection</h2>
+      <p class="instructions">
+        Pick a base and seat, then press <b>Calculate</b> to see your projected position and expected retirements ahead of you.
+      </p>
+      <div class="controls">
+        <label for="baseSelect">Base</label>
+        <select id="baseSelect"></select>
+        <label for="seatSelect">Seat</label>
+        <select id="seatSelect"></select>
+        <button id="runBaseSeat">Calculate</button>
+        <span id="runBaseSeatStatus" class="small"></span>
+      </div>
+      <div>
+        <div>Position on target date: <strong id="basePos">—</strong></div>
+        <div>Active headcount on target date: <strong id="baseActive">—</strong></div>
+        <details style="margin-top:8px;">
+          <summary>Show retirements list (if available)</summary>
+          <div class="table-wrap">
+            <table id="baseRetList">
+              <thead><tr><th>Seniority</th><th>Retire month</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </details>
+      </div>
+    </section>
 
-  <script defer src="./script.js?v=tabs1"></script>
+    <!-- ===== Retirements by Base & Year ===== -->
+    <section class="card" id="by-base-year-section">
+      <h2>Retirements by Base &amp; Year</h2>
+      <div class="table-wrap">
+        <table id="by-base-year-table">
+          <thead>
+            <tr id="retByBaseHead"><th>Year</th></tr>
+          </thead>
+          <tbody id="retByBaseBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===== Total Retirements per Year ===== -->
+    <section class="card" id="total-retirements-section">
+      <h2>Total Retirements per Year</h2>
+      <div class="table-wrap">
+        <table id="total-retirements-table">
+          <thead>
+            <tr><th>Year</th><th>Total Retirements</th></tr>
+          </thead>
+          <tbody id="retTotalsBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===== Company-wide Seniority Projector (uses yearly totals) ===== -->
+    <section class="card">
+      <h2>Seniority Projector (Company-wide)</h2>
+      <div class="inputs">
+        <label>Enter Your Seniority #
+          <input type="number" id="projSeniority" min="1" step="1" inputmode="numeric" style="width:120px;">
+        </label>
+        <label>Start Year
+          <input type="number" id="projStartYear" min="2024" step="1" style="width:120px;">
+        </label>
+        <button id="runProjector">Project</button>
+      </div>
+      <small>Assumption: each year’s retirements are senior to you (best-case upward movement).</small>
+      <div class="table-wrap">
+        <table id="projTable">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Retirements (year)</th>
+              <th>Cumulative Retirements</th>
+              <th>Projected Rank</th>
+              <th>Change vs Start</th>
+            </tr>
+          </thead>
+          <tbody id="projBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
