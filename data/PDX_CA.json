@@ -1,1166 +1,1741 @@
 {
-  "base": "PDX",
-  "seat": "CA",
+  "as_of": "2025-08-01",
   "pilots": [
     {
       "seniority": 30,
       "name": "James R. Haldeman",
-      "rank": 1
+      "doh": "3/2/1992",
+      "retire_month": "10/1/2027",
+      "status": "Active"
     },
     {
       "seniority": 32,
       "name": "Kenneth G. Dunham",
-      "rank": 2
+      "doh": "3/23/1992",
+      "retire_month": "5/13/2026",
+      "status": "Active"
     },
     {
       "seniority": 44,
       "name": "Mark E. Roeckers",
-      "rank": 3
+      "doh": "5/11/1992",
+      "retire_month": "3/29/2027",
+      "status": "Active"
     },
     {
       "seniority": 55,
       "name": "David A. Vanderville",
-      "rank": 4
+      "doh": "8/21/1995",
+      "retire_month": "3/6/2031",
+      "status": "Active"
     },
     {
       "seniority": 66,
       "name": "Stanley M. Chabert",
-      "rank": 5
+      "doh": "10/9/1995",
+      "retire_month": "1/22/2033",
+      "status": "Active"
+    },
+    {
+      "seniority": 70,
+      "name": "Douglas M. Burton",
+      "doh": "1/2/1996",
+      "retire_month": "6/8/2028",
+      "status": "Sick Leave"
     },
     {
       "seniority": 71,
       "name": "Blane D. Dye",
-      "rank": 6
+      "doh": "1/2/1996",
+      "retire_month": "6/10/2029",
+      "status": "Active"
     },
     {
       "seniority": 89,
       "name": "M. Jim McDonough",
-      "rank": 7
+      "doh": "5/13/1996",
+      "retire_month": "3/30/2029",
+      "status": "Active"
     },
     {
       "seniority": 105,
       "name": "Michael Rife",
-      "rank": 8
+      "doh": "8/5/1996",
+      "retire_month": "3/13/2027",
+      "status": "Active"
     },
     {
       "seniority": 109,
       "name": "Michael R. Duettra",
-      "rank": 9
+      "doh": "8/5/1996",
+      "retire_month": "4/21/2032",
+      "status": "Active"
     },
     {
       "seniority": 123,
       "name": "Mark A. VanGrunsven",
-      "rank": 10
+      "doh": "10/7/1996",
+      "retire_month": "5/17/2030",
+      "status": "Active"
     },
     {
       "seniority": 126,
       "name": "Jeffrey S. Sabo",
-      "rank": 11
+      "doh": "11/4/1996",
+      "retire_month": "11/30/2026",
+      "status": "Active"
+    },
+    {
+      "seniority": 131,
+      "name": "Michael A. Adams",
+      "doh": "1/6/1997",
+      "retire_month": "12/17/2025",
+      "status": "Active"
     },
     {
       "seniority": 138,
       "name": "Alan S. Hilton",
-      "rank": 12
+      "doh": "3/17/1997",
+      "retire_month": "5/3/2026",
+      "status": "Active"
     },
     {
       "seniority": 159,
       "name": "Jerrold D. Traphagen",
-      "rank": 13
+      "doh": "1/12/1998",
+      "retire_month": "9/12/2027",
+      "status": "Active"
+    },
+    {
+      "seniority": 170,
+      "name": "David P. Roach",
+      "doh": "2/2/1998",
+      "retire_month": "7/15/2029",
+      "status": "Medical LTD"
     },
     {
       "seniority": 191,
       "name": "James A. Moffat",
-      "rank": 14
+      "doh": "9/21/1998",
+      "retire_month": "11/25/2028",
+      "status": "Active"
     },
     {
       "seniority": 211,
       "name": "David M. Rehmeyer",
-      "rank": 15
+      "doh": "12/21/1998",
+      "retire_month": "5/16/2031",
+      "status": "Active"
+    },
+    {
+      "seniority": 215,
+      "name": "Francis W. Whiting",
+      "doh": "1/25/1999",
+      "retire_month": "1/4/2031",
+      "status": "Medical LTD"
     },
     {
       "seniority": 216,
       "name": "Jason J. Mertens",
-      "rank": 16
+      "doh": "1/25/1999",
+      "retire_month": "3/20/2034",
+      "status": "Active"
     },
     {
       "seniority": 221,
       "name": "Michael Geiger",
-      "rank": 17
+      "doh": "10/30/2006",
+      "retire_month": "2/22/2027",
+      "status": "Active"
+    },
+    {
+      "seniority": 227,
+      "name": "Sandra E. Hutson",
+      "doh": "3/22/1999",
+      "retire_month": "10/9/2027",
+      "status": "Sick Leave"
     },
     {
       "seniority": 228,
       "name": "Eric M. Steinbrenner",
-      "rank": 18
+      "doh": "3/22/1999",
+      "retire_month": "9/1/2034",
+      "status": "Active"
     },
     {
       "seniority": 235,
       "name": "Steven P. Jatho",
-      "rank": 19
+      "doh": "5/13/1999",
+      "retire_month": "11/15/2032",
+      "status": "Active"
     },
     {
       "seniority": 236,
       "name": "Michael Souza",
-      "rank": 20
+      "doh": "11/13/2006",
+      "retire_month": "10/11/2029",
+      "status": "Active"
     },
     {
       "seniority": 242,
       "name": "Ward J. Kellogg",
-      "rank": 21
+      "doh": "6/21/1999",
+      "retire_month": "9/7/2031",
+      "status": "Active"
     },
     {
       "seniority": 246,
       "name": "Steven E. Kriese",
-      "rank": 22
+      "doh": "7/19/1999",
+      "retire_month": "3/6/2032",
+      "status": "Active"
     },
     {
       "seniority": 248,
       "name": "James C. Betty",
-      "rank": 23
+      "doh": "8/23/1999",
+      "retire_month": "8/5/2030",
+      "status": "Active"
     },
     {
       "seniority": 287,
       "name": "Michael Cook",
-      "rank": 24
+      "doh": "1/3/2000",
+      "retire_month": "5/16/2032",
+      "status": "Active"
     },
     {
       "seniority": 301,
       "name": "Thomas W. Joyner",
-      "rank": 25
+      "doh": "1/31/2000",
+      "retire_month": "12/26/2035",
+      "status": "Active"
     },
     {
       "seniority": 304,
       "name": "Kelly D. Gay",
-      "rank": 26
+      "doh": "2/28/2000",
+      "retire_month": "7/19/2029",
+      "status": "Active"
     },
     {
       "seniority": 307,
       "name": "Christian Hix",
-      "rank": 27
+      "doh": "6/18/2007",
+      "retire_month": "12/9/2028",
+      "status": "Active"
     },
     {
       "seniority": 308,
       "name": "Timothy C. Devine",
-      "rank": 28
+      "doh": "3/27/2000",
+      "retire_month": "12/18/2030",
+      "status": "Active"
+    },
+    {
+      "seniority": 312,
+      "name": "Jeffrey S. Parker",
+      "doh": "5/19/2000",
+      "retire_month": "12/18/2026",
+      "status": "Sick Leave"
     },
     {
       "seniority": 316,
       "name": "Matthew W. Wessel",
-      "rank": 29
+      "doh": "5/19/2000",
+      "retire_month": "3/14/2032",
+      "status": "Active"
     },
     {
       "seniority": 331,
       "name": "Salvador Villarreal",
-      "rank": 30
+      "doh": "7/16/2007",
+      "retire_month": "3/7/2031",
+      "status": "Active"
     },
     {
       "seniority": 340,
       "name": "Jason M. Ainardi",
-      "rank": 31
+      "doh": "6/19/2000",
+      "retire_month": "5/17/2037",
+      "status": "Active"
     },
     {
       "seniority": 343,
       "name": "M. Todd Phillips",
-      "rank": 32
+      "doh": "7/24/2000",
+      "retire_month": "4/22/2028",
+      "status": "Active"
     },
     {
       "seniority": 358,
       "name": "Aaron R. Quiett",
-      "rank": 33
+      "doh": "7/24/2000",
+      "retire_month": "10/5/2035",
+      "status": "Active"
     },
     {
       "seniority": 376,
       "name": "Alexandre J. Laudon",
-      "rank": 34
+      "doh": "9/25/2000",
+      "retire_month": "1/28/2031",
+      "status": "Active"
     },
     {
       "seniority": 379,
       "name": "Arthur B. Normand",
-      "rank": 35
+      "doh": "9/25/2000",
+      "retire_month": "6/26/2034",
+      "status": "Active"
     },
     {
       "seniority": 389,
       "name": "Mark A. Smith",
-      "rank": 36
+      "doh": "10/23/2000",
+      "retire_month": "3/23/2028",
+      "status": "Active"
     },
     {
       "seniority": 394,
       "name": "Richard A. DuPlain",
-      "rank": 37
+      "doh": "10/23/2000",
+      "retire_month": "1/10/2033",
+      "status": "Active"
     },
     {
       "seniority": 406,
       "name": "Kurt F. Olson",
-      "rank": 38
+      "doh": "11/3/2000",
+      "retire_month": "3/8/2037",
+      "status": "Active"
     },
     {
       "seniority": 407,
       "name": "Erin Kelly",
-      "rank": 39
+      "doh": "9/17/2007",
+      "retire_month": "10/13/2040",
+      "status": "Active"
     },
     {
       "seniority": 412,
       "name": "John P. Allison",
-      "rank": 40
+      "doh": "11/27/2000",
+      "retire_month": "3/28/2032",
+      "status": "Active"
     },
     {
       "seniority": 440,
       "name": "Samuel J. Porter",
-      "rank": 41
+      "doh": "1/8/2001",
+      "retire_month": "11/17/2034",
+      "status": "Active"
     },
     {
       "seniority": 461,
       "name": "Mark J. Bednorz",
-      "rank": 42
+      "doh": "2/5/2001",
+      "retire_month": "4/28/2036",
+      "status": "Active"
     },
     {
       "seniority": 475,
       "name": "Timothy Huseby",
-      "rank": 43
+      "doh": "12/3/2007",
+      "retire_month": "5/30/2030",
+      "status": "Active"
     },
     {
       "seniority": 483,
       "name": "Richard B. Doherty",
-      "rank": 44
+      "doh": "4/2/2001",
+      "retire_month": "4/16/2026",
+      "status": "Active"
     },
     {
       "seniority": 487,
       "name": "Andrew L. York",
-      "rank": 45
+      "doh": "4/2/2001",
+      "retire_month": "10/20/2030",
+      "status": "Active"
     },
     {
       "seniority": 505,
       "name": "Robert M. Elmer",
-      "rank": 46
+      "doh": "4/30/2001",
+      "retire_month": "6/25/2030",
+      "status": "Active"
     },
     {
       "seniority": 508,
       "name": "Edward L. Hoffman",
-      "rank": 47
+      "doh": "4/30/2001",
+      "retire_month": "8/7/2031",
+      "status": "Active"
     },
     {
       "seniority": 511,
       "name": "Kent Crysdale",
-      "rank": 48
+      "doh": "1/17/2008",
+      "retire_month": "2/20/2031",
+      "status": "Active"
     },
     {
       "seniority": 524,
       "name": "Mark A. Taylor",
-      "rank": 49
+      "doh": "5/25/2001",
+      "retire_month": "12/15/2031",
+      "status": "Active"
     },
     {
       "seniority": 558,
       "name": "Michael G. Markstaller",
-      "rank": 50
+      "doh": "9/17/2001",
+      "retire_month": "2/14/2029",
+      "status": "Active"
     },
     {
       "seniority": 559,
       "name": "David B. Schmitz",
-      "rank": 51
+      "doh": "9/17/2001",
+      "retire_month": "7/1/2033",
+      "status": "Active"
     },
     {
       "seniority": 566,
       "name": "Mark Buzzell",
-      "rank": 52
+      "doh": "3/27/2008",
+      "retire_month": "6/22/2033",
+      "status": "Active"
     },
     {
       "seniority": 577,
       "name": "Christopher R. Pries",
-      "rank": 53
+      "doh": "8/5/2002",
+      "retire_month": "6/12/2028",
+      "status": "Active"
     },
     {
       "seniority": 579,
       "name": "David Raboin",
-      "rank": 54
+      "doh": "4/7/2008",
+      "retire_month": "1/21/2040",
+      "status": "Active"
     },
     {
       "seniority": 612,
       "name": "Todd A. Percival",
-      "rank": 55
+      "doh": "10/7/2002",
+      "retire_month": "1/13/2036",
+      "status": "Active"
     },
     {
       "seniority": 615,
       "name": "Geoffrey Mahrt",
-      "rank": 56
+      "doh": "5/1/2008",
+      "retire_month": "12/28/2038",
+      "status": "Active"
     },
     {
       "seniority": 618,
       "name": "Christopher C. Weathers",
-      "rank": 57
+      "doh": "11/1/2002",
+      "retire_month": "5/13/2030",
+      "status": "Active"
     },
     {
       "seniority": 619,
       "name": "James Tedford",
-      "rank": 58
+      "doh": "5/12/2008",
+      "retire_month": "6/9/2042",
+      "status": "Active"
     },
     {
       "seniority": 622,
       "name": "Keith Louis",
-      "rank": 59
+      "doh": "5/12/2008",
+      "retire_month": "2/6/2038",
+      "status": "Active"
     },
     {
       "seniority": 635,
       "name": "Gregory S. Devore",
-      "rank": 60
+      "doh": "2/3/2003",
+      "retire_month": "12/29/2034",
+      "status": "Active"
     },
     {
       "seniority": 637,
       "name": "Jonathan D. Thompson",
-      "rank": 61
+      "doh": "3/3/2003",
+      "retire_month": "10/11/2026",
+      "status": "Active"
     },
     {
       "seniority": 642,
       "name": "Bradley J. Barnett",
-      "rank": 62
+      "doh": "3/3/2003",
+      "retire_month": "9/3/2036",
+      "status": "Active"
     },
     {
       "seniority": 645,
       "name": "Steven E. Reid",
-      "rank": 63
+      "doh": "4/7/2003",
+      "retire_month": "8/8/2026",
+      "status": "Active"
     },
     {
       "seniority": 646,
       "name": "Sotirios E. Tsementzis",
-      "rank": 64
+      "doh": "4/7/2003",
+      "retire_month": "5/11/2030",
+      "status": "Active"
     },
     {
       "seniority": 649,
       "name": "Duane C. Bernethy",
-      "rank": 65
+      "doh": "4/7/2003",
+      "retire_month": "9/23/2033",
+      "status": "Active"
     },
     {
       "seniority": 656,
       "name": "Michael Lawson",
-      "rank": 66
+      "doh": "5/19/2008",
+      "retire_month": "9/16/2037",
+      "status": "Active"
     },
     {
       "seniority": 662,
       "name": "Rolland M. Bottelberghe",
-      "rank": 67
+      "doh": "1/3/2005",
+      "retire_month": "8/15/2033",
+      "status": "Active"
     },
     {
       "seniority": 687,
       "name": "Eric N. Schneider",
-      "rank": 68
+      "doh": "10/17/2005",
+      "retire_month": "7/4/2037",
+      "status": "Active"
     },
     {
       "seniority": 689,
       "name": "Timothy R. Mesjak",
-      "rank": 69
+      "doh": "10/17/2005",
+      "retire_month": "1/15/2038",
+      "status": "Active"
     },
     {
       "seniority": 700,
       "name": "Christopher A. Donway",
-      "rank": 70
+      "doh": "11/14/2005",
+      "retire_month": "6/27/2033",
+      "status": "Active"
     },
     {
       "seniority": 708,
       "name": "Marcel L. Jolley",
-      "rank": 71
+      "doh": "12/12/2005",
+      "retire_month": "6/26/2034",
+      "status": "Active"
     },
     {
       "seniority": 709,
       "name": "Richard D. Gallaher",
-      "rank": 72
+      "doh": "12/12/2005",
+      "retire_month": "4/23/2035",
+      "status": "Active"
     },
     {
       "seniority": 729,
       "name": "Daniel Hutchins",
-      "rank": 73
+      "doh": "10/20/2008",
+      "retire_month": "10/12/2037",
+      "status": "Active"
     },
     {
       "seniority": 734,
       "name": "Michael J. Catherall",
-      "rank": 74
+      "doh": "3/20/2006",
+      "retire_month": "11/13/2034",
+      "status": "Active"
     },
     {
       "seniority": 741,
       "name": "Linda Villarreal",
-      "rank": 75
+      "doh": "11/4/2008",
+      "retire_month": "5/12/2035",
+      "status": "Active"
+    },
+    {
+      "seniority": 764,
+      "name": "Michael Zenner",
+      "doh": "11/24/2008",
+      "retire_month": "7/20/2035",
+      "status": "Medical LTD"
     },
     {
       "seniority": 770,
       "name": "Douglas C. McLaren, II",
-      "rank": 76
+      "doh": "5/19/2006",
+      "retire_month": "6/24/2041",
+      "status": "Active"
     },
     {
       "seniority": 774,
       "name": "Bertram W. Wagner",
-      "rank": 77
+      "doh": "6/5/2006",
+      "retire_month": "5/31/2033",
+      "status": "Active"
     },
     {
       "seniority": 787,
       "name": "Cory D. Lee",
-      "rank": 78
+      "doh": "6/19/2006",
+      "retire_month": "6/29/2037",
+      "status": "Active"
     },
     {
       "seniority": 799,
       "name": "Todd A. Swenson",
-      "rank": 79
+      "doh": "6/29/2006",
+      "retire_month": "4/29/2034",
+      "status": "Active"
     },
     {
       "seniority": 801,
       "name": "Michael F. Hare",
-      "rank": 80
+      "doh": "6/29/2006",
+      "retire_month": "2/11/2039",
+      "status": "Active"
     },
     {
       "seniority": 818,
       "name": "Jay Parker",
-      "rank": 81
+      "doh": "3/19/2009",
+      "retire_month": "6/22/2029",
+      "status": "Active"
+    },
+    {
+      "seniority": 836,
+      "name": "Darrick C. Inman",
+      "doh": "9/18/2006",
+      "retire_month": "1/27/2039",
+      "status": "Medical LTD"
     },
     {
       "seniority": 853,
       "name": "Neal B. Kandarian",
-      "rank": 82
+      "doh": "10/23/2006",
+      "retire_month": "3/29/2039",
+      "status": "Active"
     },
     {
       "seniority": 864,
       "name": "Charles A. Jaramillo",
-      "rank": 83
+      "doh": "11/27/2006",
+      "retire_month": "12/5/2032",
+      "status": "Active"
     },
     {
       "seniority": 898,
       "name": "Jason R. Ruhl",
-      "rank": 84
+      "doh": "2/5/2007",
+      "retire_month": "4/15/2035",
+      "status": "Active"
+    },
+    {
+      "seniority": 915,
+      "name": "Patrick Mahoney",
+      "doh": "7/26/2010",
+      "retire_month": "6/6/2029",
+      "status": "Medical LTD"
     },
     {
       "seniority": 918,
       "name": "Jeffrey Ash",
-      "rank": 85
+      "doh": "7/26/2010",
+      "retire_month": "7/15/2031",
+      "status": "Active"
     },
     {
       "seniority": 922,
       "name": "Stefan Ripsam",
-      "rank": 86
+      "doh": "8/16/2010",
+      "retire_month": "9/21/2042",
+      "status": "Active"
     },
     {
       "seniority": 934,
       "name": "Jason Downs",
-      "rank": 87
+      "doh": "9/9/2010",
+      "retire_month": "6/5/2039",
+      "status": "Active"
     },
     {
       "seniority": 936,
       "name": "Scott N. Rose",
-      "rank": 88
+      "doh": "4/23/2007",
+      "retire_month": "10/14/2034",
+      "status": "Active"
     },
     {
       "seniority": 941,
       "name": "Donald R. Berry",
-      "rank": 89
+      "doh": "4/23/2007",
+      "retire_month": "8/8/2039",
+      "status": "Active"
     },
     {
       "seniority": 962,
       "name": "Michael Rossing",
-      "rank": 90
+      "doh": "11/4/2010",
+      "retire_month": "3/15/2034",
+      "status": "Active"
     },
     {
       "seniority": 963,
       "name": "Robert S. Niccolls",
-      "rank": 91
+      "doh": "6/18/2007",
+      "retire_month": "5/26/2029",
+      "status": "Active"
+    },
+    {
+      "seniority": 965,
+      "name": "Michael C. Brewster",
+      "doh": "6/18/2007",
+      "retire_month": "8/26/2033",
+      "status": "Sick Leave"
     },
     {
       "seniority": 968,
       "name": "Jeremie Linglet",
-      "rank": 92
+      "doh": "6/18/2007",
+      "retire_month": "3/9/2036",
+      "status": "Active"
     },
     {
       "seniority": 970,
       "name": "Chad T. Stark",
-      "rank": 93
+      "doh": "6/18/2007",
+      "retire_month": "5/13/2037",
+      "status": "Active"
     },
     {
       "seniority": 979,
       "name": "Marco Nardi",
-      "rank": 94
+      "doh": "12/6/2010",
+      "retire_month": "8/21/2035",
+      "status": "Active"
     },
     {
       "seniority": 982,
       "name": "Jay Waters",
-      "rank": 95
+      "doh": "12/20/2010",
+      "retire_month": "7/5/2040",
+      "status": "Active"
     },
     {
       "seniority": 993,
       "name": "Christopher S. Erickson",
-      "rank": 96
+      "doh": "7/23/2007",
+      "retire_month": "7/28/2041",
+      "status": "Active"
     },
     {
       "seniority": 996,
       "name": "Lucas A. Davies",
-      "rank": 97
+      "doh": "7/23/2007",
+      "retire_month": "5/16/2045",
+      "status": "Active"
     },
     {
       "seniority": 997,
       "name": "Scott Rowse",
-      "rank": 98
+      "doh": "1/24/2011",
+      "retire_month": "4/3/2034",
+      "status": "Active"
     },
     {
       "seniority": 998,
       "name": "Robert W. Jensen",
-      "rank": 99
+      "doh": "8/20/2007",
+      "retire_month": "10/26/2035",
+      "status": "Active"
     },
     {
       "seniority": 1000,
       "name": "Adam Garber",
-      "rank": 100
+      "doh": "1/24/2011",
+      "retire_month": "9/11/2033",
+      "status": "Active"
     },
     {
       "seniority": 1003,
       "name": "Brandon A. Fisher",
-      "rank": 101
+      "doh": "8/20/2007",
+      "retire_month": "2/20/2040",
+      "status": "Active"
     },
     {
       "seniority": 1005,
       "name": "David A. Fowler",
-      "rank": 102
+      "doh": "8/20/2007",
+      "retire_month": "4/29/2040",
+      "status": "Active"
     },
     {
       "seniority": 1008,
       "name": "Jamar R. Perry",
-      "rank": 103
+      "doh": "8/20/2007",
+      "retire_month": "8/1/2041",
+      "status": "Active"
     },
     {
       "seniority": 1009,
       "name": "Peter J. Michels",
-      "rank": 104
+      "doh": "8/20/2007",
+      "retire_month": "3/18/2042",
+      "status": "Active"
     },
     {
       "seniority": 1012,
       "name": "Michael V. Parker",
-      "rank": 105
+      "doh": "8/20/2007",
+      "retire_month": "9/30/2043",
+      "status": "Active"
     },
     {
       "seniority": 1014,
       "name": "Gregory D. Ireland",
-      "rank": 106
+      "doh": "8/20/2007",
+      "retire_month": "3/14/2047",
+      "status": "Active"
+    },
+    {
+      "seniority": 1026,
+      "name": "Daniel C. Richards",
+      "doh": "10/1/2007",
+      "retire_month": "6/10/2042",
+      "status": "Union MEC"
+    },
+    {
+      "seniority": 1029,
+      "name": "James P. Wilson, II",
+      "doh": "10/1/2007",
+      "retire_month": "12/10/2044",
+      "status": "Management"
     },
     {
       "seniority": 1035,
       "name": "Omar R. Shaar",
-      "rank": 107
+      "doh": "10/15/2007",
+      "retire_month": "8/9/2032",
+      "status": "Active"
     },
     {
       "seniority": 1046,
       "name": "Daniel W. MacDonald",
-      "rank": 108
+      "doh": "10/29/2007",
+      "retire_month": "11/20/2031",
+      "status": "Active"
     },
     {
       "seniority": 1054,
       "name": "Joseph P. Lenney",
-      "rank": 109
+      "doh": "10/29/2007",
+      "retire_month": "5/5/2039",
+      "status": "Active"
+    },
+    {
+      "seniority": 1060,
+      "name": "Justin Albright",
+      "doh": "10/10/2011",
+      "retire_month": "11/20/2045",
+      "status": "Union Other"
     },
     {
       "seniority": 1063,
       "name": "Jeff Sharples",
-      "rank": 110
+      "doh": "10/10/2011",
+      "retire_month": "7/28/2032",
+      "status": "Active"
     },
     {
       "seniority": 1065,
       "name": "Adam B. Nelson",
-      "rank": 111
+      "doh": "11/13/2007",
+      "retire_month": "11/13/2039",
+      "status": "Active"
     },
     {
       "seniority": 1069,
       "name": "Alexandros Theodorou",
-      "rank": 112
+      "doh": "10/24/2011",
+      "retire_month": "7/4/2040",
+      "status": "Active"
     },
     {
       "seniority": 1076,
       "name": "Nathan Vanderslice",
-      "rank": 113
+      "doh": "11/26/2007",
+      "retire_month": "2/15/2043",
+      "status": "Active"
     },
     {
       "seniority": 1082,
       "name": "James Coffelt",
-      "rank": 114
+      "doh": "11/28/2011",
+      "retire_month": "2/13/2042",
+      "status": "Active"
     },
     {
       "seniority": 1083,
       "name": "Brandon Olander",
-      "rank": 115
+      "doh": "11/28/2011",
+      "retire_month": "4/14/2043",
+      "status": "Active"
     },
     {
       "seniority": 1094,
       "name": "Frederic Lorenzo",
-      "rank": 116
+      "doh": "12/12/2011",
+      "retire_month": "10/1/2041",
+      "status": "Active"
     },
     {
       "seniority": 1100,
       "name": "Roland Kozak",
-      "rank": 117
+      "doh": "1/3/2012",
+      "retire_month": "7/2/2026",
+      "status": "Active"
     },
     {
       "seniority": 1102,
       "name": "Christopher Calabrese",
-      "rank": 118
+      "doh": "1/3/2012",
+      "retire_month": "12/17/2045",
+      "status": "Active"
     },
     {
       "seniority": 1110,
       "name": "Bruce Wilton",
-      "rank": 119
+      "doh": "1/23/2012",
+      "retire_month": "3/15/2041",
+      "status": "Active"
     },
     {
       "seniority": 1119,
       "name": "Andrew Taylor",
-      "rank": 120
+      "doh": "12/12/2011",
+      "retire_month": "7/16/2041",
+      "status": "Active"
     },
     {
       "seniority": 1124,
       "name": "Gregory Marshall",
-      "rank": 121
+      "doh": "1/17/2012",
+      "retire_month": "8/20/2028",
+      "status": "Active"
     },
     {
       "seniority": 1125,
       "name": "Andrew Gandarillas",
-      "rank": 122
+      "doh": "1/17/2012",
+      "retire_month": "11/1/2031",
+      "status": "Active"
     },
     {
       "seniority": 1132,
       "name": "Robert Youkhana",
-      "rank": 123
+      "doh": "2/6/2012",
+      "retire_month": "10/21/2048",
+      "status": "Active"
     },
     {
       "seniority": 1136,
       "name": "Andrew Kullick",
-      "rank": 124
+      "doh": "2/6/2012",
+      "retire_month": "3/22/2040",
+      "status": "Active"
+    },
+    {
+      "seniority": 1141,
+      "name": "Gregory Wertz",
+      "doh": "2/6/2012",
+      "retire_month": "12/22/2043",
+      "status": "Union Other"
     },
     {
       "seniority": 1145,
       "name": "Chris Neff",
-      "rank": 125
+      "doh": "2/21/2012",
+      "retire_month": "11/24/2034",
+      "status": "Active"
     },
     {
       "seniority": 1149,
       "name": "Jay Schlafmann",
-      "rank": 126
+      "doh": "3/5/2012",
+      "retire_month": "9/3/2041",
+      "status": "Active"
     },
     {
       "seniority": 1151,
       "name": "David Kuzma",
-      "rank": 127
+      "doh": "2/21/2012",
+      "retire_month": "10/6/2041",
+      "status": "Active"
     },
     {
       "seniority": 1152,
       "name": "Barry Hinrichs",
-      "rank": 128
+      "doh": "3/5/2012",
+      "retire_month": "5/26/2039",
+      "status": "Active"
     },
     {
       "seniority": 1157,
       "name": "Kyle Gray",
-      "rank": 129
+      "doh": "3/19/2012",
+      "retire_month": "11/2/2044",
+      "status": "Active"
+    },
+    {
+      "seniority": 1160,
+      "name": "Phillip Heaston",
+      "doh": "3/19/2012",
+      "retire_month": "10/25/2043",
+      "status": "Sick Leave"
     },
     {
       "seniority": 1168,
       "name": "Bobby Kearsey",
-      "rank": 130
+      "doh": "7/9/2012",
+      "retire_month": "1/25/2034",
+      "status": "Active"
     },
     {
       "seniority": 1170,
       "name": "Robert Kloft",
-      "rank": 131
+      "doh": "7/9/2012",
+      "retire_month": "2/14/2035",
+      "status": "Active"
     },
     {
       "seniority": 1176,
       "name": "Robert Edwards, Jr",
-      "rank": 132
+      "doh": "4/2/2012",
+      "retire_month": "7/25/2029",
+      "status": "Active"
+    },
+    {
+      "seniority": 1177,
+      "name": "John Peterson",
+      "doh": "7/23/2012",
+      "retire_month": "1/25/2042",
+      "status": "Medical LTD"
     },
     {
       "seniority": 1182,
       "name": "Elliot Wilson",
-      "rank": 133
+      "doh": "7/23/2012",
+      "retire_month": "9/8/2048",
+      "status": "Active"
     },
     {
       "seniority": 1187,
       "name": "John \"Drew\" Hill",
-      "rank": 134
+      "doh": "8/8/2012",
+      "retire_month": "9/10/2035",
+      "status": "Active"
     },
     {
       "seniority": 1188,
       "name": "Kyle Vershey",
-      "rank": 135
+      "doh": "8/8/2012",
+      "retire_month": "4/14/2038",
+      "status": "Active"
     },
     {
       "seniority": 1192,
       "name": "Erin Darcey",
-      "rank": 136
+      "doh": "8/8/2012",
+      "retire_month": "6/13/2042",
+      "status": "Active"
     },
     {
       "seniority": 1194,
       "name": "Matthew Richardson",
-      "rank": 137
+      "doh": "8/8/2012",
+      "retire_month": "12/8/2045",
+      "status": "Active"
     },
     {
       "seniority": 1206,
       "name": "Wade Bridges",
-      "rank": 138
+      "doh": "9/10/2012",
+      "retire_month": "1/23/2041",
+      "status": "Active"
     },
     {
       "seniority": 1207,
       "name": "Jason Onstot",
-      "rank": 139
+      "doh": "6/4/2012",
+      "retire_month": "2/28/2045",
+      "status": "Active"
     },
     {
       "seniority": 1213,
       "name": "Christopher Lawrence",
-      "rank": 140
+      "doh": "9/24/2012",
+      "retire_month": "11/23/2046",
+      "status": "Active"
     },
     {
       "seniority": 1215,
       "name": "David Rodgers",
-      "rank": 141
+      "doh": "10/10/2012",
+      "retire_month": "4/2/2036",
+      "status": "Active"
     },
     {
       "seniority": 1229,
       "name": "Ryan Bowen",
-      "rank": 142
+      "doh": "8/22/2012",
+      "retire_month": "8/3/2046",
+      "status": "Active"
     },
     {
       "seniority": 1231,
       "name": "Ian Robertson",
-      "rank": 143
+      "doh": "11/14/2012",
+      "retire_month": "1/11/2040",
+      "status": "Active"
     },
     {
       "seniority": 1237,
       "name": "Brian Goss",
-      "rank": 144
+      "doh": "12/3/2012",
+      "retire_month": "10/14/2040",
+      "status": "Active"
     },
     {
       "seniority": 1241,
       "name": "Matthew Lipetska",
-      "rank": 145
+      "doh": "12/17/2012",
+      "retire_month": "10/8/2034",
+      "status": "Active"
     },
     {
       "seniority": 1258,
       "name": "Andrew Limardo",
-      "rank": 146
+      "doh": "6/17/2013",
+      "retire_month": "10/16/2034",
+      "status": "Active"
     },
     {
       "seniority": 1259,
       "name": "Mark Freeman",
-      "rank": 147
+      "doh": "6/17/2013",
+      "retire_month": "12/30/2040",
+      "status": "Active"
     },
     {
       "seniority": 1261,
       "name": "Michael Nolting",
-      "rank": 148
+      "doh": "3/6/2013",
+      "retire_month": "10/2/2045",
+      "status": "Active"
     },
     {
       "seniority": 1265,
       "name": "Christopher Graves",
-      "rank": 149
+      "doh": "7/8/2013",
+      "retire_month": "5/21/2039",
+      "status": "Active"
     },
     {
       "seniority": 1268,
       "name": "Cameron Miller",
-      "rank": 150
+      "doh": "3/6/2013",
+      "retire_month": "1/29/2044",
+      "status": "Active"
     },
     {
       "seniority": 1280,
       "name": "Charles Prchal, Jr",
-      "rank": 151
+      "doh": "4/1/2013",
+      "retire_month": "11/26/2044",
+      "status": "Active"
     },
     {
       "seniority": 1283,
       "name": "Brian Olson",
-      "rank": 152
+      "doh": "8/12/2013",
+      "retire_month": "6/18/2038",
+      "status": "Active"
     },
     {
       "seniority": 1289,
       "name": "Jason Clouse",
-      "rank": 153
+      "doh": "10/21/2013",
+      "retire_month": "9/19/2042",
+      "status": "Active"
     },
     {
       "seniority": 1290,
       "name": "Michele Ewing",
-      "rank": 154
+      "doh": "10/21/2013",
+      "retire_month": "6/17/2044",
+      "status": "Active"
     },
     {
       "seniority": 1304,
       "name": "Konrad Rosiecki",
-      "rank": 155
+      "doh": "1/6/2014",
+      "retire_month": "6/22/2038",
+      "status": "Active"
     },
     {
       "seniority": 1308,
       "name": "Bruce Ofstun",
-      "rank": 156
+      "doh": "1/22/2014",
+      "retire_month": "3/28/2031",
+      "status": "Active"
     },
     {
       "seniority": 1309,
       "name": "John Nelson",
-      "rank": 157
+      "doh": "7/17/2013",
+      "retire_month": "7/12/2041",
+      "status": "Active"
     },
     {
       "seniority": 1313,
       "name": "Nate Cikanek",
-      "rank": 158
+      "doh": "1/22/2014",
+      "retire_month": "6/4/2044",
+      "status": "Active"
     },
     {
       "seniority": 1320,
       "name": "Tim Ireland",
-      "rank": 159
+      "doh": "2/5/2014",
+      "retire_month": "12/31/2049",
+      "status": "Active"
     },
     {
       "seniority": 1327,
       "name": "David Suko",
-      "rank": 160
+      "doh": "2/24/2014",
+      "retire_month": "12/14/2042",
+      "status": "Active"
     },
     {
       "seniority": 1329,
       "name": "Bryan Cox",
-      "rank": 161
+      "doh": "2/24/2014",
+      "retire_month": "10/19/2043",
+      "status": "Active"
     },
     {
       "seniority": 1333,
       "name": "Albert Dutertre",
-      "rank": 162
+      "doh": "3/12/2014",
+      "retire_month": "7/18/2033",
+      "status": "Active"
     },
     {
       "seniority": 1335,
       "name": "Andrew Poorman",
-      "rank": 163
+      "doh": "3/12/2014",
+      "retire_month": "1/3/2038",
+      "status": "Active"
     },
     {
       "seniority": 1345,
       "name": "Kathryn Johns",
-      "rank": 164
+      "doh": "8/28/2013",
+      "retire_month": "7/20/2044",
+      "status": "Active"
     },
     {
       "seniority": 1347,
       "name": "Matthew Winit",
-      "rank": 165
+      "doh": "3/31/2014",
+      "retire_month": "1/1/2047",
+      "status": "Active"
     },
     {
       "seniority": 1352,
       "name": "Nate Facklam",
-      "rank": 166
+      "doh": "4/14/2014",
+      "retire_month": "9/5/2042",
+      "status": "Active"
     },
     {
       "seniority": 1362,
       "name": "Tam Shaner",
-      "rank": 167
+      "doh": "5/5/2014",
+      "retire_month": "3/14/2040",
+      "status": "Active"
     },
     {
       "seniority": 1367,
       "name": "Wesley Sanders",
-      "rank": 168
+      "doh": "7/7/2014",
+      "retire_month": "10/21/2044",
+      "status": "Active"
     },
     {
       "seniority": 1391,
       "name": "Jacob Meyer",
-      "rank": 169
+      "doh": "8/4/2014",
+      "retire_month": "10/1/2042",
+      "status": "Active"
     },
     {
       "seniority": 1403,
       "name": "Josh Doughty",
-      "rank": 170
+      "doh": "8/18/2014",
+      "retire_month": "4/18/2041",
+      "status": "Active"
     },
     {
       "seniority": 1407,
       "name": "John Berens",
-      "rank": 171
+      "doh": "8/18/2014",
+      "retire_month": "4/21/2047",
+      "status": "Active"
     },
     {
       "seniority": 1411,
       "name": "Michael Benedetti",
-      "rank": 172
+      "doh": "9/8/2014",
+      "retire_month": "3/28/2042",
+      "status": "Active"
     },
     {
       "seniority": 1416,
       "name": "Eric Page",
-      "rank": 173
+      "doh": "9/22/2014",
+      "retire_month": "2/8/2036",
+      "status": "Active"
     },
     {
       "seniority": 1427,
       "name": "Michael Daniel",
-      "rank": 174
+      "doh": "10/20/2014",
+      "retire_month": "2/15/2041",
+      "status": "Active"
     },
     {
       "seniority": 1428,
       "name": "Carsten Killmer",
-      "rank": 175
+      "doh": "10/20/2014",
+      "retire_month": "7/2/2042",
+      "status": "Active"
     },
     {
       "seniority": 1431,
       "name": "Kristofer Olsen",
-      "rank": 176
+      "doh": "10/20/2014",
+      "retire_month": "1/14/2047",
+      "status": "Active"
     },
     {
       "seniority": 1441,
       "name": "Garrick Rard",
-      "rank": 177
+      "doh": "12/1/2014",
+      "retire_month": "1/29/2037",
+      "status": "Active"
     },
     {
       "seniority": 1444,
       "name": "Wesley Dinnis",
-      "rank": 178
+      "doh": "12/1/2014",
+      "retire_month": "10/11/2042",
+      "status": "Active"
     },
     {
       "seniority": 1445,
       "name": "Donald Lundberg",
-      "rank": 179
+      "doh": "12/1/2014",
+      "retire_month": "4/2/2044",
+      "status": "Active"
     },
     {
       "seniority": 1447,
       "name": "Andrew Eash",
-      "rank": 180
+      "doh": "12/1/2014",
+      "retire_month": "5/1/2046",
+      "status": "Active"
     },
     {
       "seniority": 1450,
       "name": "Tim Larson",
-      "rank": 181
+      "doh": "12/10/2014",
+      "retire_month": "2/8/2031",
+      "status": "Active"
     },
     {
       "seniority": 1467,
       "name": "Jonathan Simons",
-      "rank": 182
+      "doh": "1/7/2015",
+      "retire_month": "8/20/2045",
+      "status": "Active"
     },
     {
       "seniority": 1468,
       "name": "Ian Rasmussen",
-      "rank": 183
+      "doh": "1/7/2015",
+      "retire_month": "8/27/2045",
+      "status": "Active"
     },
     {
       "seniority": 1469,
       "name": "David Taylor",
-      "rank": 184
+      "doh": "1/21/2015",
+      "retire_month": "5/12/2048",
+      "status": "Active"
     },
     {
       "seniority": 1471,
       "name": "George Pang",
-      "rank": 185
+      "doh": "1/7/2015",
+      "retire_month": "1/26/2048",
+      "status": "Active"
     },
     {
       "seniority": 1474,
       "name": "Brent Reaves",
-      "rank": 186
+      "doh": "1/26/2015",
+      "retire_month": "3/25/2029",
+      "status": "Active"
     },
     {
       "seniority": 1475,
       "name": "Craig Goldhamer",
-      "rank": 187
+      "doh": "1/26/2015",
+      "retire_month": "6/29/2036",
+      "status": "Active"
     },
     {
       "seniority": 1490,
       "name": "Terrence Chang",
-      "rank": 188
+      "doh": "2/9/2015",
+      "retire_month": "11/15/2042",
+      "status": "Active"
     },
     {
       "seniority": 1498,
       "name": "Micah Larson",
-      "rank": 189
+      "doh": "3/16/2015",
+      "retire_month": "1/9/2037",
+      "status": "Active"
     },
     {
       "seniority": 1534,
       "name": "Jonathan Eddy",
-      "rank": 190
+      "doh": "4/13/2015",
+      "retire_month": "11/28/2039",
+      "status": "Active"
     },
     {
       "seniority": 1543,
       "name": "John Fischer",
-      "rank": 191
+      "doh": "4/27/2015",
+      "retire_month": "2/25/2041",
+      "status": "Active"
     },
     {
       "seniority": 1554,
       "name": "Matthew Betts",
-      "rank": 192
+      "doh": "5/13/2015",
+      "retire_month": "6/18/2047",
+      "status": "Active"
     },
     {
       "seniority": 1564,
       "name": "Bryan E. McKune",
-      "rank": 193
+      "doh": "6/15/2015",
+      "retire_month": "6/8/2032",
+      "status": "Active"
     },
     {
       "seniority": 1569,
       "name": "Brian Cherveny",
-      "rank": 194
+      "doh": "6/15/2015",
+      "retire_month": "4/2/2045",
+      "status": "Active"
     },
     {
       "seniority": 1570,
       "name": "Matthew Miller",
-      "rank": 195
+      "doh": "6/15/2015",
+      "retire_month": "2/24/2046",
+      "status": "Active"
     },
     {
       "seniority": 1581,
       "name": "Steven Castellano",
-      "rank": 196
+      "doh": "6/29/2015",
+      "retire_month": "11/7/2046",
+      "status": "Active"
     },
     {
       "seniority": 1593,
       "name": "Raymond Anderson",
-      "rank": 197
+      "doh": "7/20/2015",
+      "retire_month": "4/21/2044",
+      "status": "Active"
     },
     {
       "seniority": 1626,
       "name": "Matthew Smith",
-      "rank": 198
+      "doh": "9/9/2015",
+      "retire_month": "11/19/2035",
+      "status": "Active"
     },
     {
       "seniority": 1637,
       "name": "Sarah Brown",
-      "rank": 199
+      "doh": "9/9/2015",
+      "retire_month": "6/23/2049",
+      "status": "Active"
     },
     {
       "seniority": 1642,
       "name": "Stuart Hargrove",
-      "rank": 200
+      "doh": "9/23/2015",
+      "retire_month": "7/1/2043",
+      "status": "Active"
     },
     {
       "seniority": 1644,
       "name": "Joseph Viscuso",
-      "rank": 201
+      "doh": "9/23/2015",
+      "retire_month": "9/7/2045",
+      "status": "Active"
     },
     {
       "seniority": 1655,
       "name": "William McRayde",
-      "rank": 202
+      "doh": "12/2/2015",
+      "retire_month": "8/21/2045",
+      "status": "Active"
     },
     {
       "seniority": 1657,
       "name": "Brian Schei",
-      "rank": 203
+      "doh": "12/2/2015",
+      "retire_month": "7/31/2046",
+      "status": "Active"
     },
     {
       "seniority": 1658,
       "name": "Aaron Lamont",
-      "rank": 204
+      "doh": "12/2/2015",
+      "retire_month": "9/16/2046",
+      "status": "Active"
     },
     {
       "seniority": 1660,
       "name": "Nicholas Gibson",
-      "rank": 205
+      "doh": "12/2/2015",
+      "retire_month": "8/5/2052",
+      "status": "Active"
     },
     {
       "seniority": 1673,
       "name": "Adam Phillippi",
-      "rank": 206
+      "doh": "2/1/2016",
+      "retire_month": "12/21/2050",
+      "status": "Active"
     },
     {
       "seniority": 1679,
       "name": "Stephen Vega",
-      "rank": 207
+      "doh": "1/20/2016",
+      "retire_month": "1/13/2033",
+      "status": "Active"
     },
     {
       "seniority": 1698,
       "name": "Brendan Larson",
-      "rank": 208
+      "doh": "2/8/2016",
+      "retire_month": "1/11/2039",
+      "status": "Active"
     },
     {
       "seniority": 1706,
       "name": "Colt Johnson",
-      "rank": 209
+      "doh": "2/8/2016",
+      "retire_month": "3/23/2055",
+      "status": "Active"
     },
     {
       "seniority": 1715,
       "name": "Jeremy Stout",
-      "rank": 210
+      "doh": "2/29/2016",
+      "retire_month": "4/11/2042",
+      "status": "Active"
     },
     {
       "seniority": 1716,
       "name": "Robert Grabb",
-      "rank": 211
+      "doh": "2/29/2016",
+      "retire_month": "4/19/2042",
+      "status": "Active"
     },
     {
       "seniority": 1729,
       "name": "Craig McKenna",
-      "rank": 212
+      "doh": "3/28/2016",
+      "retire_month": "11/9/2033",
+      "status": "Active"
     },
     {
       "seniority": 1731,
       "name": "Blair O'Halloran",
-      "rank": 213
+      "doh": "3/28/2016",
+      "retire_month": "6/26/2035",
+      "status": "Active"
     },
     {
       "seniority": 1752,
       "name": "Thomas Hatch",
-      "rank": 214
+      "doh": "6/6/2016",
+      "retire_month": "9/29/2051",
+      "status": "Active"
     },
     {
       "seniority": 1753,
       "name": "Joshua Gray",
-      "rank": 215
+      "doh": "6/27/2016",
+      "retire_month": "5/10/2038",
+      "status": "Active"
     },
     {
       "seniority": 1755,
       "name": "Steven Cox",
-      "rank": 216
+      "doh": "6/27/2016",
+      "retire_month": "10/22/2041",
+      "status": "Active"
     },
     {
       "seniority": 1760,
       "name": "Scott Horning",
-      "rank": 217
+      "doh": "6/27/2016",
+      "retire_month": "1/15/2048",
+      "status": "Active"
     },
     {
       "seniority": 1762,
       "name": "Paul Ambrose",
-      "rank": 218
+      "doh": "6/27/2016",
+      "retire_month": "9/7/2048",
+      "status": "Active"
     },
     {
       "seniority": 1790,
       "name": "Travis Moore",
-      "rank": 219
+      "doh": "8/22/2016",
+      "retire_month": "5/29/2044",
+      "status": "Active"
     },
     {
       "seniority": 1803,
       "name": "Mark Rittman",
-      "rank": 220
+      "doh": "9/12/2016",
+      "retire_month": "12/25/2047",
+      "status": "Active"
     },
     {
       "seniority": 1813,
       "name": "Drew Gottschalk",
-      "rank": 221
+      "doh": "10/24/2016",
+      "retire_month": "7/5/2045",
+      "status": "Active"
     },
     {
       "seniority": 1828,
       "name": "Stephen King",
-      "rank": 222
+      "doh": "11/14/2016",
+      "retire_month": "5/22/2029",
+      "status": "Active"
     },
     {
       "seniority": 1829,
       "name": "Eric Williams",
-      "rank": 223
+      "doh": "11/14/2016",
+      "retire_month": "5/24/2031",
+      "status": "Active"
     },
     {
       "seniority": 1830,
       "name": "Michael Carty",
-      "rank": 224
+      "doh": "11/14/2016",
+      "retire_month": "10/15/2036",
+      "status": "Active"
     },
     {
       "seniority": 1831,
       "name": "Michael Stewart",
-      "rank": 225
+      "doh": "11/14/2016",
+      "retire_month": "1/30/2042",
+      "status": "Active"
     },
     {
       "seniority": 1833,
       "name": "Mark Gonzales",
-      "rank": 226
+      "doh": "11/14/2016",
+      "retire_month": "1/24/2046",
+      "status": "Active"
     },
     {
       "seniority": 1848,
       "name": "Jim Hansen",
-      "rank": 227
+      "doh": "11/28/2016",
+      "retire_month": "11/23/2048",
+      "status": "Active"
     },
     {
       "seniority": 1862,
       "name": "Andrew Delk",
-      "rank": 228
+      "doh": "12/28/2016",
+      "retire_month": "8/22/2037",
+      "status": "Active"
     },
     {
       "seniority": 1873,
       "name": "Michael Anderson",
-      "rank": 229
+      "doh": "1/4/2017",
+      "retire_month": "8/25/2043",
+      "status": "Active"
     },
     {
       "seniority": 1883,
       "name": "Donald Stumetz",
-      "rank": 230
+      "doh": "1/18/2017",
+      "retire_month": "10/27/2036",
+      "status": "Active"
     },
     {
       "seniority": 1885,
       "name": "Joe Lutz",
-      "rank": 231
+      "doh": "1/18/2017",
+      "retire_month": "1/30/2042",
+      "status": "Active"
     },
     {
       "seniority": 1889,
       "name": "Christopher Blanco",
-      "rank": 232
+      "doh": "1/18/2017",
+      "retire_month": "1/15/2047",
+      "status": "Active"
     }
   ]
 }

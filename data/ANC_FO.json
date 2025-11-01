@@ -1,716 +1,1083 @@
 {
-  "base": "ANC",
-  "seat": "FO",
+  "as_of": "2025-08-01",
   "pilots": [
     {
       "seniority": 95,
       "name": "Melanie A. Dittrich",
-      "rank": 1
+      "doh": "5/13/1996",
+      "retire_month": "8/12/2036",
+      "status": "Active"
     },
     {
       "seniority": 669,
       "name": "Kirt E. Van Dyke",
-      "rank": 2
+      "doh": "2/1/2005",
+      "retire_month": "6/17/2035",
+      "status": "Active"
     },
     {
       "seniority": 839,
       "name": "Melissa L. Van Dyke",
-      "rank": 3
+      "doh": "10/2/2006",
+      "retire_month": "12/20/2035",
+      "status": "Active"
+    },
+    {
+      "seniority": 991,
+      "name": "Jane M. Tuomi",
+      "doh": "7/23/2007",
+      "retire_month": "9/11/2040",
+      "status": "Active"
     },
     {
       "seniority": 1134,
       "name": "David Thibault",
-      "rank": 4
+      "doh": "2/6/2012",
+      "retire_month": "5/12/2032",
+      "status": "Active"
     },
     {
       "seniority": 1246,
       "name": "Angela McConnell",
-      "rank": 5
+      "doh": "1/9/2013",
+      "retire_month": "1/23/2042",
+      "status": "Active"
     },
     {
       "seniority": 1274,
       "name": "Sandee J. McKay",
-      "rank": 6
+      "doh": "7/29/2013",
+      "retire_month": "11/3/2037",
+      "status": "Active"
     },
     {
       "seniority": 1374,
       "name": "Robert Renner",
-      "rank": 7
+      "doh": "7/21/2014",
+      "retire_month": "10/27/2031",
+      "status": "Active"
     },
     {
       "seniority": 1544,
       "name": "Timo Schueler",
-      "rank": 8
+      "doh": "4/27/2015",
+      "retire_month": "6/11/2042",
+      "status": "Active"
+    },
+    {
+      "seniority": 1552,
+      "name": "Brian Marasco",
+      "doh": "5/13/2015",
+      "retire_month": "12/7/2039",
+      "status": "Sick Leave"
     },
     {
       "seniority": 1629,
       "name": "Edelmiro Rivera",
-      "rank": 9
+      "doh": "9/9/2015",
+      "retire_month": "3/16/2043",
+      "status": "Active"
     },
     {
       "seniority": 1654,
       "name": "Jeremy Vancil",
-      "rank": 10
+      "doh": "12/2/2015",
+      "retire_month": "2/25/2044",
+      "status": "Active"
     },
     {
       "seniority": 1695,
       "name": "Judd Sturgeon",
-      "rank": 11
+      "doh": "2/8/2016",
+      "retire_month": "9/6/2034",
+      "status": "Active"
     },
     {
       "seniority": 1792,
       "name": "Christopher Harris",
-      "rank": 12
+      "doh": "8/22/2016",
+      "retire_month": "8/1/2046",
+      "status": "Active"
     },
     {
       "seniority": 1807,
       "name": "Patrick Murray",
-      "rank": 13
+      "doh": "10/24/2016",
+      "retire_month": "8/25/2031",
+      "status": "Active"
     },
     {
       "seniority": 1820,
       "name": "Victor Andresen",
-      "rank": 14
+      "doh": "11/2/2016",
+      "retire_month": "10/9/2035",
+      "status": "Active"
+    },
+    {
+      "seniority": 1823,
+      "name": "Carl Catone",
+      "doh": "11/2/2016",
+      "retire_month": "9/29/2045",
+      "status": "Medical LTD"
     },
     {
       "seniority": 1847,
       "name": "Jennifer Webber",
-      "rank": 15
+      "doh": "11/28/2016",
+      "retire_month": "5/4/2047",
+      "status": "Active"
     },
     {
       "seniority": 1856,
       "name": "Jill Schueler",
-      "rank": 16
+      "doh": "12/5/2016",
+      "retire_month": "9/6/2045",
+      "status": "Active"
     },
     {
       "seniority": 1890,
       "name": "Jeff Boesche",
-      "rank": 17
+      "doh": "1/18/2017",
+      "retire_month": "5/9/2047",
+      "status": "Active"
+    },
+    {
+      "seniority": 1892,
+      "name": "Michael Morrison",
+      "doh": "1/18/2017",
+      "retire_month": "4/6/2048",
+      "status": "Medical LTD"
     },
     {
       "seniority": 1909,
       "name": "Jarod Crume",
-      "rank": 18
+      "doh": "1/30/2017",
+      "retire_month": "6/19/2049",
+      "status": "Active"
     },
     {
       "seniority": 1928,
       "name": "David Bushre",
-      "rank": 19
+      "doh": "2/27/2017",
+      "retire_month": "9/14/2043",
+      "status": "Active"
     },
     {
       "seniority": 1943,
       "name": "Alyssa Hickerson",
-      "rank": 20
+      "doh": "3/13/2017",
+      "retire_month": "3/20/2044",
+      "status": "Active"
     },
     {
       "seniority": 1961,
       "name": "Andrew Wright",
-      "rank": 21
+      "doh": "5/1/2017",
+      "retire_month": "2/4/2051",
+      "status": "Active"
+    },
+    {
+      "seniority": 2007,
+      "name": "Gregory Ulrich",
+      "doh": "8/14/2017",
+      "retire_month": "4/21/2042",
+      "status": "Military LOA"
     },
     {
       "seniority": 2013,
       "name": "Dan Kozak",
-      "rank": 22
+      "doh": "8/14/2017",
+      "retire_month": "3/6/2051",
+      "status": "Active"
     },
     {
       "seniority": 2027,
       "name": "Eric Neuwirth",
-      "rank": 23
+      "doh": "8/28/2017",
+      "retire_month": "12/23/2043",
+      "status": "Active"
     },
     {
       "seniority": 2038,
       "name": "Chris John McDonald",
-      "rank": 24
+      "doh": "9/25/2017",
+      "retire_month": "9/9/2033",
+      "status": "Active"
     },
     {
       "seniority": 2048,
       "name": "William Jacobson",
-      "rank": 25
+      "doh": "9/25/2017",
+      "retire_month": "7/12/2053",
+      "status": "Active"
     },
     {
       "seniority": 2057,
       "name": "Nathan Schauermann",
-      "rank": 26
+      "doh": "10/9/2017",
+      "retire_month": "11/23/2042",
+      "status": "Active"
     },
     {
       "seniority": 2066,
       "name": "Keith Wolak",
-      "rank": 27
+      "doh": "10/23/2017",
+      "retire_month": "5/25/2037",
+      "status": "Active"
     },
     {
       "seniority": 2070,
       "name": "Kristen Sprague",
-      "rank": 28
+      "doh": "10/23/2017",
+      "retire_month": "10/26/2049",
+      "status": "Active"
+    },
+    {
+      "seniority": 2082,
+      "name": "Nathan Gold",
+      "doh": "11/6/2017",
+      "retire_month": "3/19/2043",
+      "status": "Active"
     },
     {
       "seniority": 2105,
       "name": "Isaac Peterson",
-      "rank": 29
+      "doh": "12/4/2017",
+      "retire_month": "3/4/2049",
+      "status": "Active"
     },
     {
       "seniority": 2107,
       "name": "Connor Lockwood",
-      "rank": 30
+      "doh": "12/4/2017",
+      "retire_month": "1/27/2052",
+      "status": "Active"
     },
     {
       "seniority": 2109,
       "name": "Lucas Merrill",
-      "rank": 31
+      "doh": "12/4/2017",
+      "retire_month": "9/26/2053",
+      "status": "Active"
     },
     {
       "seniority": 2110,
       "name": "Tyler Youngren",
-      "rank": 32
+      "doh": "12/4/2017",
+      "retire_month": "11/8/2053",
+      "status": "Active"
     },
     {
       "seniority": 2120,
       "name": "Bryan Mulder",
-      "rank": 33
+      "doh": "12/11/2017",
+      "retire_month": "6/21/2048",
+      "status": "Active"
     },
     {
       "seniority": 2125,
       "name": "Jennifer Wilkinson",
-      "rank": 34
+      "doh": "12/11/2017",
+      "retire_month": "3/22/2043",
+      "status": "Active"
     },
     {
       "seniority": 2127,
       "name": "Brian O'Connor",
-      "rank": 35
+      "doh": "12/11/2017",
+      "retire_month": "3/19/2045",
+      "status": "Active"
     },
     {
       "seniority": 2157,
       "name": "Owen Miller",
-      "rank": 36
+      "doh": "1/22/2018",
+      "retire_month": "4/7/2048",
+      "status": "Active"
     },
     {
       "seniority": 2170,
       "name": "Dayne Jenkins",
-      "rank": 37
+      "doh": "2/5/2018",
+      "retire_month": "9/2/2049",
+      "status": "Active"
     },
     {
       "seniority": 2211,
       "name": "Peter Manthey",
-      "rank": 38
+      "doh": "5/7/2018",
+      "retire_month": "9/4/2030",
+      "status": "Active"
     },
     {
       "seniority": 2217,
       "name": "Megan Giese",
-      "rank": 39
+      "doh": "5/7/2018",
+      "retire_month": "10/2/2042",
+      "status": "Active"
     },
     {
       "seniority": 2219,
       "name": "Austin Engebretson",
-      "rank": 40
+      "doh": "5/7/2018",
+      "retire_month": "4/7/2047",
+      "status": "Active"
     },
     {
       "seniority": 2243,
       "name": "Erika E. Bennett",
-      "rank": 41
+      "doh": "10/15/2018",
+      "retire_month": "1/14/2036",
+      "status": "Active"
     },
     {
       "seniority": 2248,
       "name": "Anthony J. Willis",
-      "rank": 42
+      "doh": "10/15/2018",
+      "retire_month": "4/12/2046",
+      "status": "Active"
     },
     {
       "seniority": 2272,
       "name": "Luke A. Hickerson",
-      "rank": 43
+      "doh": "12/17/2018",
+      "retire_month": "1/10/2047",
+      "status": "Active"
     },
     {
       "seniority": 2275,
       "name": "Daniel J. Mahr",
-      "rank": 44
+      "doh": "12/17/2018",
+      "retire_month": "4/27/2052",
+      "status": "Active"
     },
     {
       "seniority": 2280,
       "name": "Paul S. Wayner",
-      "rank": 45
+      "doh": "1/7/2019",
+      "retire_month": "10/27/2034",
+      "status": "Active"
     },
     {
       "seniority": 2289,
       "name": "Benjamin L. Gray",
-      "rank": 46
+      "doh": "1/7/2019",
+      "retire_month": "11/29/2047",
+      "status": "Active"
     },
     {
       "seniority": 2292,
       "name": "Quinton P. Metcalf",
-      "rank": 47
+      "doh": "1/7/2019",
+      "retire_month": "9/18/2057",
+      "status": "Active"
     },
     {
       "seniority": 2313,
       "name": "Michael A. Laughlin",
-      "rank": 48
+      "doh": "1/28/2019",
+      "retire_month": "5/16/2047",
+      "status": "Active"
     },
     {
       "seniority": 2318,
       "name": "Brent R. Kennedy",
-      "rank": 49
+      "doh": "2/4/2019",
+      "retire_month": "6/26/2028",
+      "status": "Active"
     },
     {
       "seniority": 2319,
       "name": "Matthew C. Harper",
-      "rank": 50
+      "doh": "2/4/2019",
+      "retire_month": "12/5/2039",
+      "status": "Active"
     },
     {
       "seniority": 2347,
       "name": "Ryan W. Sackett",
-      "rank": 51
+      "doh": "2/19/2019",
+      "retire_month": "9/19/2052",
+      "status": "Active"
     },
     {
       "seniority": 2367,
       "name": "Eric D. Budd",
-      "rank": 52
+      "doh": "3/18/2019",
+      "retire_month": "4/9/2037",
+      "status": "Active"
     },
     {
       "seniority": 2368,
       "name": "Ben N. Nygren",
-      "rank": 53
+      "doh": "3/18/2019",
+      "retire_month": "9/13/2037",
+      "status": "Active"
     },
     {
       "seniority": 2372,
       "name": "Paul J. Zemboy",
-      "rank": 54
+      "doh": "3/25/2019",
+      "retire_month": "9/9/2033",
+      "status": "Active"
     },
     {
       "seniority": 2373,
       "name": "Timothy D. Manier",
-      "rank": 55
+      "doh": "3/25/2019",
+      "retire_month": "11/6/2034",
+      "status": "Active"
     },
     {
       "seniority": 2376,
       "name": "Travis J. Walker",
-      "rank": 56
+      "doh": "3/25/2019",
+      "retire_month": "5/3/2040",
+      "status": "Active"
     },
     {
       "seniority": 2377,
       "name": "Jason R. Glover",
-      "rank": 57
+      "doh": "3/25/2019",
+      "retire_month": "1/10/2041",
+      "status": "Active"
     },
     {
       "seniority": 2407,
       "name": "Burke R. Anderson",
-      "rank": 58
+      "doh": "7/22/2019",
+      "retire_month": "6/3/2051",
+      "status": "Active"
     },
     {
       "seniority": 2408,
       "name": "Valerie M. VanDeRostyne",
-      "rank": 59
+      "doh": "7/22/2019",
+      "retire_month": "1/24/2053",
+      "status": "Active"
     },
     {
       "seniority": 2415,
       "name": "William R. Post",
-      "rank": 60
+      "doh": "8/19/2019",
+      "retire_month": "7/22/2043",
+      "status": "Active"
     },
     {
       "seniority": 2421,
       "name": "Carl R. Andresen",
-      "rank": 61
+      "doh": "9/16/2019",
+      "retire_month": "1/21/2032",
+      "status": "Active"
     },
     {
       "seniority": 2426,
       "name": "Matthew S. Rombach",
-      "rank": 62
+      "doh": "9/16/2019",
+      "retire_month": "6/3/2049",
+      "status": "Active"
     },
     {
       "seniority": 2436,
       "name": "James S. DeAnda",
-      "rank": 63
+      "doh": "9/30/2019",
+      "retire_month": "6/18/2052",
+      "status": "Active"
     },
     {
       "seniority": 2454,
       "name": "John A. Armstrong",
-      "rank": 64
+      "doh": "12/2/2019",
+      "retire_month": "5/7/2044",
+      "status": "Active"
+    },
+    {
+      "seniority": 2458,
+      "name": "Daniel J. LaChasse",
+      "doh": "12/2/2019",
+      "retire_month": "4/30/2049",
+      "status": "Military LOA"
     },
     {
       "seniority": 2480,
       "name": "Casey J. Hill",
-      "rank": 65
+      "doh": "1/27/2020",
+      "retire_month": "6/22/2057",
+      "status": "Active"
     },
     {
       "seniority": 2483,
       "name": "Joshua T. Gussak",
-      "rank": 66
+      "doh": "2/10/2020",
+      "retire_month": "10/7/2045",
+      "status": "Active"
     },
     {
       "seniority": 2499,
       "name": "Simon K. Suchland",
-      "rank": 67
+      "doh": "3/16/2020",
+      "retire_month": "11/10/2051",
+      "status": "Active"
     },
     {
       "seniority": 2503,
       "name": "Theodore P. Parish",
-      "rank": 68
+      "doh": "10/4/2021",
+      "retire_month": "11/16/2043",
+      "status": "Active"
+    },
+    {
+      "seniority": 2505,
+      "name": "Vance G. Feavel",
+      "doh": "10/4/2021",
+      "retire_month": "4/1/2047",
+      "status": "Military LOA"
     },
     {
       "seniority": 2506,
       "name": "Bryson S. James",
-      "rank": 69
+      "doh": "10/4/2021",
+      "retire_month": "4/17/2050",
+      "status": "Active"
     },
     {
       "seniority": 2513,
       "name": "Allison M. Eckert",
-      "rank": 70
+      "doh": "10/11/2021",
+      "retire_month": "1/11/2046",
+      "status": "Active"
     },
     {
       "seniority": 2514,
       "name": "Lawrence E. Hofmann",
-      "rank": 71
+      "doh": "10/11/2021",
+      "retire_month": "3/8/2058",
+      "status": "Active"
     },
     {
       "seniority": 2515,
       "name": "Richard G. Adams",
-      "rank": 72
+      "doh": "10/25/2021",
+      "retire_month": "8/13/2034",
+      "status": "Active"
     },
     {
       "seniority": 2521,
       "name": "Matthew Calabro",
-      "rank": 73
+      "doh": "10/25/2021",
+      "retire_month": "4/3/2043",
+      "status": "Active"
     },
     {
       "seniority": 2527,
       "name": "Owen J. Butcher",
-      "rank": 74
+      "doh": "10/25/2021",
+      "retire_month": "12/28/2047",
+      "status": "Active"
     },
     {
       "seniority": 2537,
       "name": "Nicole P. Clark",
-      "rank": 75
+      "doh": "11/1/2021",
+      "retire_month": "3/22/2050",
+      "status": "Active"
     },
     {
       "seniority": 2543,
       "name": "Erik R. Andresen",
-      "rank": 76
+      "doh": "11/1/2021",
+      "retire_month": "5/30/2057",
+      "status": "Active"
     },
     {
       "seniority": 2546,
       "name": "Jacob Williams",
-      "rank": 77
+      "doh": "11/1/2021",
+      "retire_month": "7/19/2060",
+      "status": "Active"
     },
     {
       "seniority": 2561,
       "name": "Corey W. Howlett",
-      "rank": 78
+      "doh": "11/29/2021",
+      "retire_month": "12/21/2033",
+      "status": "Active"
     },
     {
       "seniority": 2585,
       "name": "Sean W. Sylvester",
-      "rank": 79
+      "doh": "12/6/2021",
+      "retire_month": "6/24/2056",
+      "status": "Active"
     },
     {
       "seniority": 2600,
       "name": "Ludmyla G. Weaver",
-      "rank": 80
+      "doh": "12/13/2021",
+      "retire_month": "2/5/2057",
+      "status": "Active"
     },
     {
       "seniority": 2604,
       "name": "Joshua A. Schein",
-      "rank": 81
+      "doh": "12/27/2021",
+      "retire_month": "12/4/2044",
+      "status": "Active"
     },
     {
       "seniority": 2610,
       "name": "Chalon G. Brown",
-      "rank": 82
+      "doh": "12/27/2021",
+      "retire_month": "7/31/2054",
+      "status": "Active"
     },
     {
       "seniority": 2620,
       "name": "Justin K. Therriault",
-      "rank": 83
+      "doh": "1/3/2022",
+      "retire_month": "4/11/2057",
+      "status": "Active"
     },
     {
       "seniority": 2632,
       "name": "Forrest J. Haack",
-      "rank": 84
+      "doh": "1/10/2022",
+      "retire_month": "11/22/2058",
+      "status": "FMLA"
     },
     {
       "seniority": 2636,
       "name": "Nyia A. Charest",
-      "rank": 85
+      "doh": "1/18/2022",
+      "retire_month": "5/7/2041",
+      "status": "Active"
     },
     {
       "seniority": 2639,
       "name": "Kara L. Hansen",
-      "rank": 86
+      "doh": "1/18/2022",
+      "retire_month": "7/27/2043",
+      "status": "Active"
     },
     {
       "seniority": 2647,
       "name": "Nexhati Tifeki",
-      "rank": 87
+      "doh": "1/24/2022",
+      "retire_month": "6/17/2037",
+      "status": "Active"
     },
     {
       "seniority": 2658,
       "name": "Joshua R. Havel",
-      "rank": 88
+      "doh": "2/7/2022",
+      "retire_month": "2/4/2037",
+      "status": "Active"
     },
     {
       "seniority": 2665,
       "name": "Patrick T. Carter",
-      "rank": 89
+      "doh": "2/7/2022",
+      "retire_month": "6/7/2049",
+      "status": "Active"
     },
     {
       "seniority": 2668,
       "name": "Blake P. Ramsey",
-      "rank": 90
+      "doh": "2/7/2022",
+      "retire_month": "1/31/2054",
+      "status": "Active"
     },
     {
       "seniority": 2676,
       "name": "Lindsey L. Norman",
-      "rank": 91
+      "doh": "2/14/2022",
+      "retire_month": "10/17/2054",
+      "status": "Active"
     },
     {
       "seniority": 2680,
       "name": "Ross A. Ribons",
-      "rank": 92
+      "doh": "2/14/2022",
+      "retire_month": "9/12/2060",
+      "status": "Active"
     },
     {
       "seniority": 2684,
       "name": "Ricardo C. Parks",
-      "rank": 93
+      "doh": "2/28/2022",
+      "retire_month": "11/28/2038",
+      "status": "Active"
     },
     {
       "seniority": 2685,
       "name": "Andrew B. Willis",
-      "rank": 94
+      "doh": "2/28/2022",
+      "retire_month": "12/14/2042",
+      "status": "Active"
     },
     {
       "seniority": 2697,
       "name": "Mickey R. Wilson",
-      "rank": 95
+      "doh": "2/28/2022",
+      "retire_month": "3/24/2057",
+      "status": "Active"
+    },
+    {
+      "seniority": 2708,
+      "name": "Benjamin J. Leonard",
+      "doh": "3/7/2022",
+      "retire_month": "3/19/2048",
+      "status": "Military LOA"
     },
     {
       "seniority": 2711,
       "name": "Brian Huffman",
-      "rank": 96
+      "doh": "3/7/2022",
+      "retire_month": "7/14/2052",
+      "status": "Active"
     },
     {
       "seniority": 2712,
       "name": "Jacob Graham",
-      "rank": 97
+      "doh": "3/7/2022",
+      "retire_month": "9/12/2053",
+      "status": "Active"
     },
     {
       "seniority": 2715,
       "name": "Tyler W. Sundh",
-      "rank": 98
+      "doh": "3/7/2022",
+      "retire_month": "7/27/2059",
+      "status": "Active"
+    },
+    {
+      "seniority": 2735,
+      "name": "Marcus R. Moloney",
+      "doh": "3/14/2022",
+      "retire_month": "1/27/2060",
+      "status": "Active"
     },
     {
       "seniority": 2737,
       "name": "Joseph P. Timmreck",
-      "rank": 99
+      "doh": "3/21/2022",
+      "retire_month": "10/19/2042",
+      "status": "Active"
     },
     {
       "seniority": 2749,
       "name": "Deborah M. Moseley",
-      "rank": 100
+      "doh": "3/28/2022",
+      "retire_month": "10/12/2034",
+      "status": "Active"
     },
     {
       "seniority": 2761,
       "name": "Cooper M. Fell",
-      "rank": 101
+      "doh": "3/28/2022",
+      "retire_month": "11/15/2059",
+      "status": "Active"
     },
     {
       "seniority": 2766,
       "name": "Marion R. Wells",
-      "rank": 102
+      "doh": "4/4/2022",
+      "retire_month": "5/4/2042",
+      "status": "Active"
     },
     {
       "seniority": 2771,
       "name": "Benjamin D. Jacob",
-      "rank": 103
+      "doh": "4/4/2022",
+      "retire_month": "1/27/2052",
+      "status": "Active"
     },
     {
       "seniority": 2776,
       "name": "Patrick H. Gerken",
-      "rank": 104
+      "doh": "4/4/2022",
+      "retire_month": "8/21/2058",
+      "status": "Active"
     },
     {
       "seniority": 2780,
       "name": "Benjamin D. Mosier",
-      "rank": 105
+      "doh": "4/11/2022",
+      "retire_month": "4/22/2046",
+      "status": "Active"
     },
     {
       "seniority": 2784,
       "name": "Andrew W. Moss",
-      "rank": 106
+      "doh": "4/11/2022",
+      "retire_month": "6/11/2052",
+      "status": "Active"
     },
     {
       "seniority": 2786,
       "name": "Tyler M. Lea",
-      "rank": 107
+      "doh": "4/11/2022",
+      "retire_month": "10/21/2053",
+      "status": "Active"
     },
     {
       "seniority": 2794,
       "name": "Kevin A. Stickler",
-      "rank": 108
+      "doh": "4/18/2022",
+      "retire_month": "12/19/2045",
+      "status": "Active"
     },
     {
       "seniority": 2802,
       "name": "Christina R. Bryant",
-      "rank": 109
+      "doh": "4/25/2022",
+      "retire_month": "12/24/2046",
+      "status": "Active"
     },
     {
       "seniority": 2806,
       "name": "Don A. Nowell",
-      "rank": 110
+      "doh": "4/25/2022",
+      "retire_month": "7/13/2056",
+      "status": "Active"
     },
     {
       "seniority": 2822,
       "name": "Franc E. Wright",
-      "rank": 111
+      "doh": "5/9/2022",
+      "retire_month": "1/2/2057",
+      "status": "Active"
     },
     {
       "seniority": 2854,
       "name": "Ward B. Hurlburt, V",
-      "rank": 112
+      "doh": "6/6/2022",
+      "retire_month": "8/12/2053",
+      "status": "Active"
     },
     {
       "seniority": 2855,
       "name": "Michael D. Cooper",
-      "rank": 113
+      "doh": "6/6/2022",
+      "retire_month": "11/25/2053",
+      "status": "Active"
     },
     {
       "seniority": 2880,
       "name": "Chad L. Lowery",
-      "rank": 114
+      "doh": "6/27/2022",
+      "retire_month": "6/3/2057",
+      "status": "Active"
     },
     {
       "seniority": 2881,
       "name": "Hugh C. Donovan",
-      "rank": 115
+      "doh": "6/27/2022",
+      "retire_month": "10/5/2057",
+      "status": "Active"
     },
     {
       "seniority": 2890,
       "name": "Terrence E. Rouda",
-      "rank": 116
+      "doh": "7/18/2022",
+      "retire_month": "6/23/2054",
+      "status": "Active"
     },
     {
       "seniority": 2891,
       "name": "Stanley D. Westerman",
-      "rank": 117
+      "doh": "7/18/2022",
+      "retire_month": "9/11/2056",
+      "status": "Active"
     },
     {
       "seniority": 2903,
       "name": "Lee T. Minear",
-      "rank": 118
+      "doh": "8/29/2022",
+      "retire_month": "11/18/2042",
+      "status": "Active"
+    },
+    {
+      "seniority": 2918,
+      "name": "Allen R. Goss",
+      "doh": "9/12/2022",
+      "retire_month": "10/30/2039",
+      "status": "Sick Leave"
     },
     {
       "seniority": 2922,
       "name": "Joseph W. MacDonald-Brown",
-      "rank": 119
+      "doh": "9/12/2022",
+      "retire_month": "2/17/2048",
+      "status": "Active"
     },
     {
       "seniority": 2930,
       "name": "Griffin M. Kellar",
-      "rank": 120
+      "doh": "9/12/2022",
+      "retire_month": "11/7/2059",
+      "status": "Active"
     },
     {
       "seniority": 2936,
       "name": "James A. Miller",
-      "rank": 121
+      "doh": "9/19/2022",
+      "retire_month": "2/21/2044",
+      "status": "Active"
     },
     {
       "seniority": 2939,
       "name": "David J. DeVine",
-      "rank": 122
+      "doh": "9/19/2022",
+      "retire_month": "1/27/2055",
+      "status": "Active"
     },
     {
       "seniority": 2942,
       "name": "Hunter Dill",
-      "rank": 123
+      "doh": "9/19/2022",
+      "retire_month": "5/23/2060",
+      "status": "Active"
     },
     {
       "seniority": 2945,
       "name": "Harold D. Townsend",
-      "rank": 124
+      "doh": "10/3/2022",
+      "retire_month": "5/10/2048",
+      "status": "Active"
     },
     {
       "seniority": 2949,
       "name": "Joseph H. Pritt",
-      "rank": 125
+      "doh": "10/10/2022",
+      "retire_month": "5/30/2047",
+      "status": "Active"
     },
     {
       "seniority": 2958,
       "name": "Michael D. Charlie",
-      "rank": 126
+      "doh": "10/24/2022",
+      "retire_month": "8/27/2042",
+      "status": "Active"
+    },
+    {
+      "seniority": 2959,
+      "name": "Scott D. Owen",
+      "doh": "10/24/2022",
+      "retire_month": "10/27/2042",
+      "status": "Military LOA"
+    },
+    {
+      "seniority": 2961,
+      "name": "Jeremy R. Sobrepena",
+      "doh": "10/24/2022",
+      "retire_month": "7/30/2045",
+      "status": "Active"
     },
     {
       "seniority": 2989,
       "name": "Kenton T. McKinnis",
-      "rank": 127
+      "doh": "11/14/2022",
+      "retire_month": "10/22/2060",
+      "status": "Active"
     },
     {
       "seniority": 2993,
       "name": "Charles F. Arnold",
-      "rank": 128
+      "doh": "11/28/2022",
+      "retire_month": "12/31/2043",
+      "status": "Active"
     },
     {
       "seniority": 2994,
       "name": "Cameron T. White",
-      "rank": 129
+      "doh": "11/28/2022",
+      "retire_month": "3/7/2053",
+      "status": "Active"
     },
     {
       "seniority": 2995,
       "name": "Thomas J. von Olszewski",
-      "rank": 130
+      "doh": "11/28/2022",
+      "retire_month": "6/11/2053",
+      "status": "Active"
     },
     {
       "seniority": 2999,
       "name": "Elijah R. Jensen",
-      "rank": 131
+      "doh": "11/28/2022",
+      "retire_month": "11/18/2059",
+      "status": "Active"
     },
     {
       "seniority": 3003,
       "name": "Vincent E. Ferenczy",
-      "rank": 132
+      "doh": "12/5/2022",
+      "retire_month": "1/19/2053",
+      "status": "Active"
     },
     {
       "seniority": 3012,
       "name": "Andrew McCrea",
-      "rank": 133
+      "doh": "12/12/2022",
+      "retire_month": "3/31/2047",
+      "status": "Active"
     },
     {
       "seniority": 3022,
       "name": "Aaron D. Pomeroy",
-      "rank": 134
+      "doh": "12/19/2022",
+      "retire_month": "5/18/2051",
+      "status": "Active"
     },
     {
       "seniority": 3031,
       "name": "Julia E. Helsel",
-      "rank": 135
+      "doh": "1/9/2023",
+      "retire_month": "7/3/2062",
+      "status": "Active"
     },
     {
       "seniority": 3038,
       "name": "Michael L. Robertson",
-      "rank": 136
+      "doh": "1/30/2023",
+      "retire_month": "8/26/2049",
+      "status": "Active"
     },
     {
       "seniority": 3039,
       "name": "Woodsen Saunders",
-      "rank": 137
+      "doh": "1/30/2023",
+      "retire_month": "10/13/2051",
+      "status": "Active"
     },
     {
       "seniority": 3044,
       "name": "Dakota K. Ramus",
-      "rank": 138
+      "doh": "1/30/2023",
+      "retire_month": "9/18/2057",
+      "status": "Active"
+    },
+    {
+      "seniority": 3046,
+      "name": "Michael J. Makar",
+      "doh": "2/6/2023",
+      "retire_month": "2/6/2038",
+      "status": "Sick Leave"
     },
     {
       "seniority": 3057,
       "name": "Miles Weston",
-      "rank": 139
+      "doh": "2/6/2023",
+      "retire_month": "4/20/2054",
+      "status": "Active"
     },
     {
-      "seniority": 3073,
-      "name": "Harrison T. Marble",
-      "rank": 140
-    },
-    {
-      "seniority": 3074,
-      "name": "Katherine A. Pottebaum",
-      "rank": 141
-    },
-    {
-      "seniority": 3079,
-      "name": "Caleb M. Dyches",
-      "rank": 142
+      "seniority": 3062,
+      "name": "Conor T. Deal",
+      "doh": "2/6/2023",
+      "retire_month": "6/3/2058",
+      "status": "Sick Leave"
     }
   ]
 }
