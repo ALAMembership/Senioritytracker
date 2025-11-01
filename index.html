@@ -72,3 +72,52 @@
   <script src="script.js"></script>
 </body>
 </html>
+<section class="card">
+  <h2>Retirements by Base & Year</h2>
+  <table id="retByBase">
+    <thead>
+      <tr id="retByBaseHead"><th>Year</th></tr>
+    </thead>
+    <tbody id="retByBaseBody"></tbody>
+  </table>
+</section>
+
+<section class="card">
+  <h2>Total Retirements per Year</h2>
+  <table id="retTotals">
+    <thead>
+      <tr><th>Year</th><th>Total Retirements</th></tr>
+    </thead>
+    <tbody id="retTotalsBody"></tbody>
+  </table>
+</section>
+
+<section class="card">
+  <h2>Seniority Projector (Company-wide)</h2>
+  <div class="inputs">
+    <label>Enter Your Seniority #
+      <input type="number" id="projSeniority" min="1" step="1" inputmode="numeric" style="width:120px;">
+    </label>
+    <label>Start Year
+      <input type="number" id="projStartYear" min="2024" step="1" style="width:120px;">
+    </label>
+    <button id="runProjector">Project</button>
+  </div>
+  <small>
+    Assumption: each year’s retirements are senior to you (best-case upward movement).
+    You can tighten this later by mixing in real seniority distributions.
+  </small>
+  <table id="projTable">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Retirements (year)</th>
+        <th>Cumulative Retirements</th>
+        <th>Projected Rank</th>
+        <th>Change vs Start</th>
+      </tr>
+    </thead>
+    <tbody id="projBody"></tbody>
+  </table>
+</section>
+
